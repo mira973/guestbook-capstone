@@ -8,3 +8,10 @@ dependencies = [
     "pydantic-settings>=2.15.0",
     "uvicorn>=0.54.0",
 ]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.16.0",
+    "pytest>=9.1.1",
+    "ruff>=0.17.3",
+]
