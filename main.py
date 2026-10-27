@@ -7,8 +7,6 @@ from pydantic import BaseModel
 from config import settings
 
 
-
-
 def connect():
     return psycopg.connect(settings.database_url)
 
