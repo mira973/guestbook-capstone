@@ -1,6 +1,6 @@
 services:
   app:
-    build: .
+    image: ghcr.io/mira973/guestbook-capstone:v1.0.0
     ports:
       - "8000:8000"
     environment:
